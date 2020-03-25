@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Spread of idea</title>
+
+    <link rel="stylesheet" type="text/css" href="css/superslides.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+    <!--jQuery-->
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+</head>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+
+<!--上にもどる-->
+<script>
+jQuery(document).ready(function() {
+var offset = 100;
+var duration = 500;
+jQuery(window).scroll(function() {
+if (jQuery(this).scrollTop() > offset) {
+jQuery('.pagetop').fadeIn(duration);
+} else {
+jQuery('.pagetop').fadeOut(duration);
+}
+});
+
+jQuery('.pagetop').click(function(event) {
+event.preventDefault();
+jQuery('html, body').animate({scrollTop: 0}, duration);
+return false;
+})
+});
+</script>
+
+<body>
+    <!--"slides" → script.js参照-->
+    <div id="slides">
+
+      <div class="overlay"></div>
+      
+      <div class="slides-container">
+          <img src="img/SpreadTop.jpg" alt="">
+          <img src="img/SpreadMio.jpg" alt="">
+          <img src="img/SpreadNon.jpg" alt="">
+          <img src="img/SpreadHide.jpg" alt="">
+          <img src="img/SpreadIshii.jpg" alt="">
+
+      </div>
+
+      <div class="titleMessage">
+          <div class="heading">
+              <p class="main">Spread of idea</p>
+              <p>Misic is so much better, up to our mind.</p>
+              <p class="sub typed"></p>
+          </div>
+      </div>
+
+      <nav class="slides-navigation">
+            <a href="#" class="next"></a>
+            <a href="#" class="prev"></a>
+      </nav>
+
+
+      </div>
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#about">About <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#stats">stats</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">contact</a>
+            </li>
+          </ul>
+        </div>
+
+      </nav>
+
+      <div id="about" class="section">
+          <div class="container">
+              
+          
+            <div class="row">
+                <div class="col-md-5">
+                    <img class="aboutImage" src="img/Spread1.jpg">
+                </div>
+                <div class="col-md-7">
+                    <h4>Spread of idea</h4>
+                    <p>
+                        西南学院大学Sains voice所属の3名(荒木美桜/山本野々花/江口英孝)と社会人1名(石井浩史)で結成されたボーカルパフォーマンスグループ。
+                        モダンジャズやポップス、ボサノヴァからオリジナルまで幅広いジャンルを歌いこなし、そのレパートリーの多彩さでステージを魅了する。
+                        昨年度同サークルにて行われたSains voice5周年ライブでは選考オーディションを1位で通過。一般講評でも支持率90%超を記録した。
+                        アカペラの枠に囚われない音楽スタイルと特徴的なアレンジは更なるステージへと加速する。
+                        <br>
+                        <br>
+                        【主な大会実績】<br>
+                        第7回アカペラスピリッツ 九州・沖縄ブロック最終予選進出/九州アカペラコンサートin天草 決勝大会/第17回　小城アカペラコンサート準優勝/その他共演ライブ,ゲスト出演経験多数。
+                    </p>
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <div id="skills" class="skillsSection section">
+            <div class="container">
+              <div class="row">
+                  <div class="col-md-12 text-center">
+                    <h2>TECHNICAL SKILLS</h2>
+                    <p>A representation of our proficiency in each skill</p>
+                  </div>
+                  <div class="owl-carousel owl-theme">
+                    
+                    <div class="skill">
+                        <span class="chart" data-percent="80">
+                            <span class="percent"></span>
+                            <canvas height="152" width="152"></canvas>
+                        </span>
+                         <h4>Vocal</h4>
+                         <p>総計5オクターブのボイスレンジ,バッキングやストリングスなどの高等技術を有する。</p>
+                    </div>
+
+                    <div class="skill">
+                            <span class="chart" data-percent="85">
+                                <span class="percent"></span>
+                                <canvas height="152" width="152"></canvas>
+                            </span>
+                             <h4>Rythme</h4>
+                             <p>カッティング奏法やゴーストノート等、通常楽器でのみ可能な演奏手法も取り入れる。</p>
+                    </div>
+
+                        <div class="skill">
+                            <span class="chart" data-percent="90">
+                                <span class="percent"></span>
+                                <canvas height="152" width="152"></canvas>
+                            </span>
+                                <h4>Ensemble</h4>
+                                <p>スリーコードを皮切りに7th進行や2-5-1,ドミナントモーションをハーモニーのみで再現。</p>
+                        </div>
+
+                        <div class="skill">
+                            <span class="chart" data-percent="100">
+                                <span class="percent"></span>
+                                <canvas height="152" width="152"></canvas>
+                            </span>
+                                <h4>Arrange</h4>
+                                <p>既存曲のリハーモナイズやリミックスに加え、オリジナルの製作等手広く対応可。</p>
+                        </div>
+
+                  </div>
+                </div>
+          </div>
+        </div>
+  
+
+        <div id="stats" class="statsSection section">
+            <div class="container">
+              <div class="row">
+                  <div class="col-md-3 col-sm-6">
+                    <div class="squareItem">
+                        <div class="squareInnerContainer">
+                            <div class="sqareIcon">
+                                <img src="img/macbook.png" alt="">
+                            </div>
+                            <div class="squareContent">
+                                <h2 id="counter">38</h2>
+                                <h3>Offers</h3>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3 col-sm-6">
+                    <div class="squareItem">
+                        <div class="squareInnerContainer">
+                            <div class="sqareIcon">
+                                <img src="img/twitter.png" alt="">
+                            </div>
+                            <div class="squareContent">
+                                <h2 id="counter">433</h2>
+                                <h3>Followers</h3>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3 col-sm-6">
+                    <div class="squareItem">
+                        <div class="squareInnerContainer">
+                            <div class="sqareIcon">
+                                <img src="img/score.png" alt="">
+                            </div>
+                            <div class="squareContent">
+                                <h2 id="counter">21</h2>
+                                <h3>Repertoires</h3>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3 col-sm-6">
+                    <div class="squareItem">
+                        <div class="squareInnerContainer">
+                            <div class="sqareIcon">
+                                <img src="img/airplane.png" alt="">
+                            </div>
+                            <div class="squareContent">
+                                <h2 id="counter">∞</h2>
+                                <h3>Everywhere is fine!</h3>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div id="contact" class="contactSection section">
+
+            <div class="col-md-12 text-center">
+                <p class="subHeading">お問い合わせ</p>
+                <h2>出演のご依頼、その他お問い合わせ等、お待ちしております。</h2>
+                <a href="mailTo:dotsastrobeats18@gmail.com" class="contactButton">Contact here.</a>
+            </div>
+
+        </div>
+       
+        <div class="copyrightSection">
+            <div class="col-md-12 text-center">
+                <p>&copy; Copyright Hirofumi Ishii 2020</p>
+            </div>
+        </div>
+
+        <!--
+        <script src="js/countUp.min.js"></script>
+        <script src="js/countUp-jquery.js"></script>
+        -->
+        <script src="js/jquery.superslides.min.js"></script>
+        <script src="js/jquery.easypiechart.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/typed.min.js"></script>
+        <!--Bootstrap-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+        <script src="js/script.js"></script>
+        <div class="pagetop">↑</div>
+</body>
+</html>
